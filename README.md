@@ -17,20 +17,27 @@ Additionally, we leverage open-source tools like the Arango TAXII server to shar
 ## Features
 
 - Simulated OS credential dumping and DLL injection attacks
-- Use of MITRE `caldera` for attack simulation
-- Log collection with `splunk` Enterprise
+- Use of MITRE [Caldera](https://github.com/mitre/caldera) for attack simulation
+- Log collection with [Splunk](https://github.com/splunk) Enterprise
 - STIX 2.1 formatting via STIX-Shifter connector
-- Threat-hunting notebook in Jupyter using `kestrel-lang`
+- Threat-hunting notebook in Jupyter using [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang)
 - Investigation of parent-child process relationships
-- `arango_taxii_server` TAXII API wrapper for ArangoDB setup for sharing IOCs and CTI
-- Integration of `cti-taxii-client` for posting and consuming intelligence
-- Use of `stix2arango` CLI tool for inserting STIX 2.1 data into TAXII server
+- [arango_taxii_server](https://github.com/muchdogesec/arango_taxii_server) TAXII API wrapper for ArangoDB setup for sharing IOCs and CTI
+- Integration of [cti-taxii-client](https://github.com/oasis-open/cti-taxii-client) for posting and consuming intelligence
+- Use of [stix2arango](https://github.com/muchdogesec/stix2arango) CLI tool for inserting STIX 2.1 data into TAXII server
 
 ## Installation
+
+TBD
+
+## Usage
+
 TBD
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
+
 Université de Sherbrooke - INF808
