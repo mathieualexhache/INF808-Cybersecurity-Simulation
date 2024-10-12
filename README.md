@@ -19,7 +19,7 @@ Additionally, we leverage open-source tools like the Arango TAXII server to shar
 - Simulated OS credential dumping and DLL injection attacks
 - Use of MITRE [Caldera](https://github.com/mitre/caldera) for attack simulation
 - Log collection with [Splunk](https://github.com/splunk) Enterprise
-- STIX 2.1 formatting via STIX-Shifter connector
+- STIX 2.1 formatting via [stix-shifter](https://github.com/opencybersecurityalliance/stix-shifter) connector
 - Threat-hunting notebook in Jupyter using [Kestrel](https://github.com/opencybersecurityalliance/kestrel-lang)
 - Investigation of parent-child process relationships
 - [arango_taxii_server](https://github.com/muchdogesec/arango_taxii_server) TAXII API wrapper for ArangoDB setup for sharing IOCs and CTI
