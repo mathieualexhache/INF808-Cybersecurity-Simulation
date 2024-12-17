@@ -1,0 +1,13 @@
+{
+  "base_url": "/",
+  "hostname": "0.0.0.0",
+  "password": false,
+  "pid": 1611,
+  "port": 8888,
+  "root_dir": "/home/inf808/INF808Kestrel",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://FedoraThreatHunting:8888/",
+  "version": "2.14.2"
+}

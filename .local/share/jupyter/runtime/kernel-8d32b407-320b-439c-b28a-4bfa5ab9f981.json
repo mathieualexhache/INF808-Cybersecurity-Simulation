@@ -1,0 +1,13 @@
+{
+  "shell_port": 52547,
+  "iopub_port": 50339,
+  "stdin_port": 60739,
+  "control_port": 55619,
+  "hb_port": 57735,
+  "ip": "127.0.0.1",
+  "key": "d8d7079e-2e2314efd7be18c59d65da7c",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "kestrel",
+  "jupyter_session": "/home/inf808/INF808Kestrel/"
+}

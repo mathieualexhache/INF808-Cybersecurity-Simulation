@@ -1,0 +1,34 @@
+profiles:
+    attribute-plot:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/attributeplot/analytics.py
+        func: analytics
+    exfiltration-modeling:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/dataexfiltration/analytics.py
+        func: analytics
+    domain-enrichment:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/domainnamelookup/annotateip.py
+        func: analytics
+    log4shell-deobfuscation-and-detection:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/log4shell/analytics.py
+        func: analytics
+    pin-IP-on-map:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/piniponmap/analytics.py
+        func: analytics
+    SANS-enrich:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/sansipenrich/analytics.py
+        func: analytics
+    scikit-learn-clustering:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/sklearn-cluster/analytics.py
+        func: analytics
+    suspicious-process-scoring:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/suspiciousscoring/analytics.py
+        func: analytics
+    xfe-enrich:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/xfeipenrich/analytics.py
+        func: analytics
+    openai-suspicious-processes:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/openai-suspicious-processes/analytics.py
+        func: analytics
+    psd:
+        module: /home/inf808/INF808Kestrel/kestrel-analytics/analytics/psd/analytics.py
+        func: analytics

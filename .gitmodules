@@ -1,0 +1,12 @@
+[submodule "arango_cti_processor"]
+	path = arango_cti_processor
+	url = https://github.com/muchdogesec/arango_cti_processor
+[submodule "INF808Kestrel/kestrel-analytics"]
+	path = INF808Kestrel/kestrel-analytics
+	url = https://github.com/opencybersecurityalliance/kestrel-analytics
+[submodule "arango_taxii_server"]
+	path = arango_taxii_server
+	url = https://github.com/muchdogesec/arango_taxii_server
+[submodule "stix2arango"]
+	path = stix2arango
+	url = https://github.com/muchdogesec/stix2arango

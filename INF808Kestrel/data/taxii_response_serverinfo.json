@@ -1,0 +1,1 @@
+{"title":"INF808 TAXII Server","description":"A lightweight TAXII API wrapper for ArangoDB","contact":"hacm2085@usherbrooke.ca","api_roots":["http://127.0.0.1:8529/api/taxii2/cti_knowledge_database/","http://127.0.0.1:8529/api/taxii2/_system/"]}
