@@ -9,8 +9,6 @@ Additionally, we leverage open-source tools like the **Arango TAXII server** to 
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
 
