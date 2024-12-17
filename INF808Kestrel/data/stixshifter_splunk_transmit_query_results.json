@@ -1,6 +1,0 @@
-{
-    "success": false,
-    "connector": "splunk",
-    "error": "splunk connector error => [{\"type\": \"FATAL\", \"text\": \"Unknown sid.\"}]",
-    "code": "no_results"
-}

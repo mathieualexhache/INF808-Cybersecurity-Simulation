@@ -1,1 +1,0 @@
-{"argv": ["python3", "-m", "kestrel_jupyter_kernel", "-f", "{connection_file}"], "display_name": "Kestrel", "language": "kestrel"}
