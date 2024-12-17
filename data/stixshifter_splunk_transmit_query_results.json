@@ -1,6 +1,34 @@
 {
-    "success": false,
-    "connector": "splunk",
-    "error": "splunk connector error => [{\"type\": \"FATAL\", \"text\": \"Unknown sid.\"}]",
-    "code": "no_results"
+    "success": true,
+    "data": [
+        {
+            "EventData_Xml": "<Data Name='RuleName'>RDP</Data><Data Name='UtcTime'>2024-12-12 22:16:43.303</Data><Data Name='ProcessGuid'>{8e02ef74-3d4b-675b-1200-000000002a00}</Data><Data Name='ProcessId'>792</Data><Data Name='Image'>C:\\Windows\\System32\\svchost.exe</Data><Data Name='User'>NT AUTHORITY\\NETWORK SERVICE</Data><Data Name='Protocol'>tcp</Data><Data Name='Initiated'>false</Data><Data Name='SourceIsIpv6'>false</Data><Data Name='SourceIp'>157.245.148.142</Data><Data Name='SourceHostname'>-</Data><Data Name='SourcePort'>58533</Data><Data Name='SourcePortName'>-</Data><Data Name='DestinationIsIpv6'>false</Data><Data Name='DestinationIp'>10.0.0.5</Data><Data Name='DestinationHostname'>WindowsTarget.gwvavixz1yzuxgweuyqj3hytvf.ux.internal.cloudapp.net</Data><Data Name='DestinationPort'>3389</Data><Data Name='DestinationPortName'>ms-wbt-server</Data>",
+            "SourceIp": "157.245.148.142",
+            "System_Props_Xml": "<Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>3</EventID><Version>5</Version><Level>4</Level><Task>3</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2024-12-12T22:16:45.3728516Z'/><EventRecordID>100196</EventRecordID><Correlation/><Execution ProcessID='3780' ThreadID='3880'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WindowsTarget</Computer><Security UserID='S-1-5-18'/>",
+            "_bkt": "main~3~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "3:414170",
+            "_indextime": "1734041806",
+            "_raw": "<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'><System><Provider Name='Microsoft-Windows-Sysmon' Guid='{5770385f-c22a-43e0-bf4c-06f5698ffbd9}'/><EventID>3</EventID><Version>5</Version><Level>4</Level><Task>3</Task><Opcode>0</Opcode><Keywords>0x8000000000000000</Keywords><TimeCreated SystemTime='2024-12-12T22:16:45.3728516Z'/><EventRecordID>100196</EventRecordID><Correlation/><Execution ProcessID='3780' ThreadID='3880'/><Channel>Microsoft-Windows-Sysmon/Operational</Channel><Computer>WindowsTarget</Computer><Security UserID='S-1-5-18'/></System><EventData><Data Name='RuleName'>RDP</Data><Data Name='UtcTime'>2024-12-12 22:16:43.303</Data><Data Name='ProcessGuid'>{8e02ef74-3d4b-675b-1200-000000002a00}</Data><Data Name='ProcessId'>792</Data><Data Name='Image'>C:\\Windows\\System32\\svchost.exe</Data><Data Name='User'>NT AUTHORITY\\NETWORK SERVICE</Data><Data Name='Protocol'>tcp</Data><Data Name='Initiated'>false</Data><Data Name='SourceIsIpv6'>false</Data><Data Name='SourceIp'>157.245.148.142</Data><Data Name='SourceHostname'>-</Data><Data Name='SourcePort'>58533</Data><Data Name='SourcePortName'>-</Data><Data Name='DestinationIsIpv6'>false</Data><Data Name='DestinationIp'>10.0.0.5</Data><Data Name='DestinationHostname'>WindowsTarget.gwvavixz1yzuxgweuyqj3hytvf.ux.internal.cloudapp.net</Data><Data Name='DestinationPort'>3389</Data><Data Name='DestinationPortName'>ms-wbt-server</Data></EventData></Event>",
+            "_serial": "0",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ],
+            "_sourcetype": "XmlWinEventLog",
+            "_time": "2024-12-12T17:16:45.000-05:00",
+            "host": "WindowsTarget",
+            "index": "main",
+            "linecount": "1",
+            "source": "XmlWinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "sourcetype": "XmlWinEventLog",
+            "splunk_server": "FedoraThreatHunting",
+            "src_ip": "157.245.148.142",
+            "name": null,
+            "query_count": null,
+            "query_type": null,
+            "mime_type_raw": "text/plain",
+            "file_hash": null,
+            "file_hashes": {}
+        }
+    ]
 }
