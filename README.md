@@ -34,5 +34,5 @@ Additionally, we leverage open-source tools like the **Arango TAXII server** to 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgments
-
-Université de Sherbrooke - INF808
+- [Nacer Benouaret]
+- [Sekou Brice Bamba]
