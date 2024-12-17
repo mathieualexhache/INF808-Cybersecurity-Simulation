@@ -38,7 +38,6 @@ docker/
 *.swp
 *.bak
 *.tmp
-*.log
 *.pid
 *.out
 
@@ -56,7 +55,6 @@ docker/
 # Ignore the cache and config files for some tools
 .cache/
 local/
-logs/
 *.pid
 
 # Ignore npm/yarn lock files if you are using node-based tools
@@ -76,3 +74,6 @@ Thumbs.db          # Windows
 
 #dont include kestrel-analytics as a submodule
 kestrel-analytics/
+stix2-matcher/
+stix2-patterns-validator/
+huntingspace/
