@@ -1,0 +1,840 @@
+{
+    "type": "bundle",
+    "id": "bundle--9ed344d7-9da6-444e-9951-bcda2095b570",
+    "objects": [
+        {
+            "type": "identity",
+            "id": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "name": "splunk",
+            "identity_class": "system"
+        },
+        {
+            "id": "observed-data--7917f054-58fa-455e-b3f3-7380d76aa6ed",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.872Z",
+            "modified": "2024-12-12T00:44:20.872Z",
+            "first_observed": "2024-12-08T14:00:28.000Z",
+            "last_observed": "2024-12-08T14:00:28.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "x-oca-asset--31f5b2fa-d402-4fa1-aa2b-c70ae9edd282",
+                "x-oca-event--efd3ee9d-b905-4b65-a288-006e8d42cb4f",
+                "x-splunk-data--6301d479-0b2f-4147-9eb6-569482678b33",
+                "x-splunk--091a19ae-ae6a-4798-a35c-34858c44d0c3",
+                "artifact--f58555c4-f85f-5491-ada7-83c26f451af3"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--b979e5f1-6c13-4847-913f-6ecaf3684fd5",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.876Z",
+            "modified": "2024-12-12T00:44:20.876Z",
+            "first_observed": "2024-12-08T14:00:28.000Z",
+            "last_observed": "2024-12-08T14:00:28.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "x-oca-asset--d358e9b8-7a17-46d2-a25b-d24ed1dbffa4",
+                "x-oca-event--a8fa6504-f86d-497e-b55e-cc1eec443957",
+                "x-splunk-data--0033c97d-e8af-44bc-875a-d83709932a51",
+                "x-splunk--7c140ffb-8cd9-4fce-8673-c755a9180914",
+                "artifact--9bf5963f-7de8-5b04-ba75-32107f276624"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--94149c85-bdf9-42d2-b1a4-b762bd4bbe0c",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.876Z",
+            "modified": "2024-12-12T00:44:20.876Z",
+            "first_observed": "2024-12-08T14:00:28.000Z",
+            "last_observed": "2024-12-08T14:00:28.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "x-oca-asset--ee73893a-2230-4f65-ad63-1b07bb0b886c",
+                "x-oca-event--15057bc4-5d44-46fe-8a02-f9065560bb33",
+                "x-splunk-data--707e2422-3003-4fc5-8778-a816f0b0f518",
+                "x-splunk--5e6108ba-42b3-4663-8e79-ad6aa43c041f",
+                "artifact--5cd717d8-06a3-5d08-82fb-7638b74bfe18"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--6ebb8ea6-c91d-4e49-8dc0-dae6e13f3d6a",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.877Z",
+            "modified": "2024-12-12T00:44:20.877Z",
+            "first_observed": "2024-12-08T14:00:27.000Z",
+            "last_observed": "2024-12-08T14:00:27.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "user-account--461a1567-d82c-5116-b05c-4d984b31dc73",
+                "x-oca-asset--9673ac2f-3bf2-4943-92cf-fc9efafc6eb2",
+                "x-oca-event--a7270b8a-74c9-47d6-b41b-8d0042832f59",
+                "x-splunk-data--198690cf-2a93-4ea9-a73d-52e399be6914",
+                "x-splunk--82a89cd7-18a2-4227-8412-2286993545a2",
+                "artifact--7bbce428-a83f-5115-ab17-78d75de4cafe"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--032a8fa8-2d9f-4316-93d7-fb7a4828190a",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.877Z",
+            "modified": "2024-12-12T00:44:20.877Z",
+            "first_observed": "2024-12-08T14:00:27.000Z",
+            "last_observed": "2024-12-08T14:00:27.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "user-account--2b7ea540-7c9b-5ea7-8edc-fccc989ce972",
+                "x-oca-asset--05b1594f-a03a-44fb-8981-682f24a14a9b",
+                "x-oca-event--3db03143-a617-48b1-9e0f-430ebaf575ba",
+                "x-splunk-data--8ab1ca3a-c70e-4877-969e-7c4a3a155f07",
+                "process--4d6c2eb3-a9a4-4c7e-a87c-77a13273df86",
+                "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2",
+                "x-splunk--ddd533e9-4efb-4c55-8847-97eab0692545",
+                "artifact--291d2be2-f82b-5a93-94fd-02052c700f3f"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--58fe6b75-8a6a-4df7-b890-05b027ebd560",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.877Z",
+            "modified": "2024-12-12T00:44:20.877Z",
+            "first_observed": "2024-12-08T14:00:27.000Z",
+            "last_observed": "2024-12-08T14:00:27.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "user-account--72a1fe9f-9532-52d2-828c-39887ef70ccc",
+                "x-oca-asset--804db10e-c955-4fb8-937a-1da1416438cb",
+                "x-oca-event--3d17d622-fc92-46ac-92f8-82bc98de8729",
+                "x-splunk-data--07366a04-ea5a-4b9f-a8df-fe8bca443a05",
+                "process--206aaf2d-afd9-4ee6-b2ea-d4c270e6ef5e",
+                "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2",
+                "x-splunk--3f41d306-1c38-4792-a992-c91ac837b9c4",
+                "artifact--6fb53e5a-e259-5fa6-96fd-0a5e99495910"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--a33aa174-aaf6-425e-9919-58c9979c8d9a",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.878Z",
+            "modified": "2024-12-12T00:44:20.878Z",
+            "first_observed": "2024-12-08T14:00:27.000Z",
+            "last_observed": "2024-12-08T14:00:27.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "user-account--c998791c-89bc-5885-b37e-19cc73c764d2",
+                "x-oca-asset--d7cfb8c8-c7e6-48ab-bfd9-d822b9c9d60e",
+                "x-oca-event--5132408e-1eda-48ed-84d7-f99a04602e89",
+                "x-splunk-data--d5801974-4b0c-4166-a0e1-489688e96ab3",
+                "process--87434eb3-57c7-460e-aa9c-cd845a438aae",
+                "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2",
+                "x-splunk--8c25559c-f9bb-4238-8002-ba506808e05c",
+                "artifact--f5af70ac-4d30-5e01-ac56-3705d245f4ec"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--35012d4c-b4e3-4e06-871e-7c44352cf2ff",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.878Z",
+            "modified": "2024-12-12T00:44:20.878Z",
+            "first_observed": "2024-12-08T14:00:27.000Z",
+            "last_observed": "2024-12-08T14:00:27.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "user-account--5a96b65c-7256-56fe-b2da-bd82769a22f0",
+                "x-oca-asset--05ca5a92-08b9-4b66-a001-c9e1b367b1df",
+                "x-oca-event--f8090b9c-57e3-4f55-b8f7-22a35f21269c",
+                "x-splunk-data--b6874f7e-ba79-4583-83c8-083f414feca0",
+                "process--ddcac2ac-19b0-4003-9622-a2e0e9fd297b",
+                "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2",
+                "x-splunk--a3afdc64-e3e2-4d64-8d82-d890c965274a",
+                "artifact--f672f4fe-6bd7-5bd2-96cd-10c1750d4e04"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "id": "observed-data--ea5245fc-e5c1-400a-99a2-33249a32c892",
+            "type": "observed-data",
+            "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+            "created": "2024-12-12T00:44:20.878Z",
+            "modified": "2024-12-12T00:44:20.878Z",
+            "first_observed": "2024-12-08T14:00:27.000Z",
+            "last_observed": "2024-12-08T14:00:27.000Z",
+            "number_observed": 1,
+            "object_refs": [
+                "user-account--75f957b2-1c87-55dc-be2d-a8c656b61cff",
+                "x-oca-asset--ba061c81-0d16-4b9f-a369-14429c326733",
+                "x-oca-event--09477b7d-6ec4-4f90-ab91-7da86ebc1907",
+                "x-splunk-data--96df9106-4676-49a3-bdfa-0a035b462f1c",
+                "process--3940a29e-d8c0-4487-86e5-55a458d34e25",
+                "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2",
+                "x-splunk--8176c0d8-d013-4ad6-a86c-648a549b3048",
+                "artifact--e46cd19c-3082-51a1-a8c3-a54bb30bce7b"
+            ],
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--31f5b2fa-d402-4fa1-aa2b-c70ae9edd282",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "host_ref": "x-oca-asset--31f5b2fa-d402-4fa1-aa2b-c70ae9edd282",
+            "id": "x-oca-event--efd3ee9d-b905-4b65-a288-006e8d42cb4f",
+            "spec_version": "2.1",
+            "module": "WinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "severity": 20,
+            "code": "1",
+            "provider": "Microsoft Windows",
+            "x_event_id": "89840",
+            "original_ref": "artifact--f58555c4-f85f-5491-ada7-83c26f451af3",
+            "created": "2024-12-08T14:00:28.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "id": "x-splunk-data--6301d479-0b2f-4147-9eb6-569482678b33",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_event_signature",
+                "windows_ta_data"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--091a19ae-ae6a-4798-a35c-34858c44d0c3",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759239",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:28 PM\nLogName=Microsoft-Windows-Sysmon/Operational\nEventCode=1\nEventType=4\nComputerName=WindowsTarget\nUser=NOT_TRANSLATED\nSid=S-1-5-18\nSidType=0\nSourceName=Microsoft-Windows-Sysmon\nType=Information\nRecordNumber=89840\nKeywords=None\nTaskCategory=Process Create (rule: ProcessCreate)\nOpCode=Info",
+            "_serial": "0",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyOCBQTQpMb2dOYW1lPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbApFdmVudENvZGU9MQpFdmVudFR5cGU9NApDb21wdXRlck5hbWU9V2luZG93c1RhcmdldApVc2VyPU5PVF9UUkFOU0xBVEVEClNpZD1TLTEtNS0xOApTaWRUeXBlPTAKU291cmNlTmFtZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24KVHlwZT1JbmZvcm1hdGlvbgpSZWNvcmROdW1iZXI9ODk4NDAKS2V5d29yZHM9Tm9uZQpUYXNrQ2F0ZWdvcnk9UHJvY2VzcyBDcmVhdGUgKHJ1bGU6IFByb2Nlc3NDcmVhdGUpCk9wQ29kZT1JbmZvCk1lc3NhZ2U9UHJvY2VzcyBDcmVhdGU6DQpSdWxlTmFtZTogLQ0KVXRjVGltZTogMjAyNC0xMi0wOCAxOTowMDoyOC4wMjQNClByb2Nlc3NHdWlkOiB7OGUwMmVmNzQtZWNjYy02NzU1LTdmMDktMDAwMDAwMDAyODAwfQ0KUHJvY2Vzc0lkOiAzMTg4DQpJbWFnZTogQzpcV2luZG93c1xTeXN0ZW0zMlxNb1Vzb0NvcmVXb3JrZXIuZXhlDQpGaWxlVmVyc2lvbjogMTAuMC4xOTA0MS41MDcyIChXaW5CdWlsZC4xNjAxMDEuMDgwMCkNCkRlc2NyaXB0aW9uOiBNb1VTTyBDb3JlIFdvcmtlciBQcm9jZXNzDQpQcm9kdWN0OiBNaWNyb3NvZnTCriBXaW5kb3dzwq4gT3BlcmF0aW5nIFN5c3RlbQ0KQ29tcGFueTogTWljcm9zb2Z0IENvcnBvcmF0aW9uDQpPcmlnaW5hbEZpbGVOYW1lOiBNb1VTT0NvcmVXb3JrZXIuZXhlDQpDb21tYW5kTGluZTogQzpcV2luZG93c1xTeXN0ZW0zMlxtb3Vzb2NvcmV3b3JrZXIuZXhlIC1FbWJlZGRpbmcNCkN1cnJlbnREaXJlY3Rvcnk6IEM6XFdpbmRvd3Ncc3lzdGVtMzJcDQpVc2VyOiBOVCBBVVRIT1JJVFlcU1lTVEVNDQpMb2dvbkd1aWQ6IHs4ZTAyZWY3NC1iYTI1LTY3NTUtZTcwMy0wMDAwMDAwMDAwMDB9DQpMb2dvbklkOiAweDNFNw0KVGVybWluYWxTZXNzaW9uSWQ6IDANCkludGVncml0eUxldmVsOiBTeXN0ZW0NCkhhc2hlczogU0hBMjU2PTAzNkNCMTY3RDkwQjQ5MTExQ0IzMzA3MURFNDU4QjhENUU0NDdDQzg5NDVDMzY3OTUzRkJCRTZDMUU0OTUxQkINClBhcmVudFByb2Nlc3NHdWlkOiB7OGUwMmVmNzQtYmEyNi02NzU1LTBmMDAtMDAwMDAwMDAyODAwfQ0KUGFyZW50UHJvY2Vzc0lkOiA5NDQNClBhcmVudEltYWdlOiBDOlxXaW5kb3dzXFN5c3RlbTMyXHN2Y2hvc3QuZXhlDQpQYXJlbnRDb21tYW5kTGluZTogQzpcV2luZG93c1xzeXN0ZW0zMlxzdmNob3N0LmV4ZSAtayBEY29tTGF1bmNoIC1wDQpQYXJlbnRVc2VyOiBOVCBBVVRIT1JJVFlcU1lTVEVN",
+            "id": "artifact--f58555c4-f85f-5491-ada7-83c26f451af3",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--d358e9b8-7a17-46d2-a25b-d24ed1dbffa4",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "host_ref": "x-oca-asset--d358e9b8-7a17-46d2-a25b-d24ed1dbffa4",
+            "id": "x-oca-event--a8fa6504-f86d-497e-b55e-cc1eec443957",
+            "spec_version": "2.1",
+            "module": "WinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "severity": 20,
+            "code": "5",
+            "provider": "Microsoft Windows",
+            "x_event_id": "89839",
+            "original_ref": "artifact--9bf5963f-7de8-5b04-ba75-32107f276624",
+            "created": "2024-12-08T14:00:28.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "id": "x-splunk-data--0033c97d-e8af-44bc-875a-d83709932a51",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_event_signature",
+                "windows_ta_data"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--7c140ffb-8cd9-4fce-8673-c755a9180914",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759221",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:28 PM\nLogName=Microsoft-Windows-Sysmon/Operational\nEventCode=5\nEventType=4\nComputerName=WindowsTarget\nUser=NOT_TRANSLATED\nSid=S-1-5-18\nSidType=0\nSourceName=Microsoft-Windows-Sysmon\nType=Information\nRecordNumber=89839\nKeywords=None\nTaskCategory=Process terminated (rule: ProcessTerminate)\nOpCode=Info",
+            "_serial": "1",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyOCBQTQpMb2dOYW1lPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbApFdmVudENvZGU9NQpFdmVudFR5cGU9NApDb21wdXRlck5hbWU9V2luZG93c1RhcmdldApVc2VyPU5PVF9UUkFOU0xBVEVEClNpZD1TLTEtNS0xOApTaWRUeXBlPTAKU291cmNlTmFtZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24KVHlwZT1JbmZvcm1hdGlvbgpSZWNvcmROdW1iZXI9ODk4MzkKS2V5d29yZHM9Tm9uZQpUYXNrQ2F0ZWdvcnk9UHJvY2VzcyB0ZXJtaW5hdGVkIChydWxlOiBQcm9jZXNzVGVybWluYXRlKQpPcENvZGU9SW5mbwpNZXNzYWdlPVByb2Nlc3MgdGVybWluYXRlZDoNClJ1bGVOYW1lOiAtDQpVdGNUaW1lOiAyMDI0LTEyLTA4IDE5OjAwOjI4LjAwOA0KUHJvY2Vzc0d1aWQ6IHs4ZTAyZWY3NC1iYTM4LTY3NTUtOWUwMC0wMDAwMDAwMDI4MDB9DQpQcm9jZXNzSWQ6IDM2OTINCkltYWdlOiBDOlxXaW5kb3dzXFN5c3RlbTMyXEFnZ3JlZ2F0b3JIb3N0LmV4ZQ0KVXNlcjogTlQgQVVUSE9SSVRZXFNZU1RFTQ==",
+            "id": "artifact--9bf5963f-7de8-5b04-ba75-32107f276624",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--ee73893a-2230-4f65-ad63-1b07bb0b886c",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "host_ref": "x-oca-asset--ee73893a-2230-4f65-ad63-1b07bb0b886c",
+            "id": "x-oca-event--15057bc4-5d44-46fe-8a02-f9065560bb33",
+            "spec_version": "2.1",
+            "module": "WinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "severity": 20,
+            "code": "5",
+            "provider": "Microsoft Windows",
+            "x_event_id": "89838",
+            "original_ref": "artifact--5cd717d8-06a3-5d08-82fb-7638b74bfe18",
+            "created": "2024-12-08T14:00:28.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Microsoft-Windows-Sysmon/Operational",
+            "id": "x-splunk-data--707e2422-3003-4fc5-8778-a816f0b0f518",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_event_signature",
+                "windows_ta_data"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--5e6108ba-42b3-4663-8e79-ad6aa43c041f",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759204",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:28 PM\nLogName=Microsoft-Windows-Sysmon/Operational\nEventCode=5\nEventType=4\nComputerName=WindowsTarget\nUser=NOT_TRANSLATED\nSid=S-1-5-18\nSidType=0\nSourceName=Microsoft-Windows-Sysmon\nType=Information\nRecordNumber=89838\nKeywords=None\nTaskCategory=Process terminated (rule: ProcessTerminate)\nOpCode=Info",
+            "_serial": "2",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyOCBQTQpMb2dOYW1lPU1pY3Jvc29mdC1XaW5kb3dzLVN5c21vbi9PcGVyYXRpb25hbApFdmVudENvZGU9NQpFdmVudFR5cGU9NApDb21wdXRlck5hbWU9V2luZG93c1RhcmdldApVc2VyPU5PVF9UUkFOU0xBVEVEClNpZD1TLTEtNS0xOApTaWRUeXBlPTAKU291cmNlTmFtZT1NaWNyb3NvZnQtV2luZG93cy1TeXNtb24KVHlwZT1JbmZvcm1hdGlvbgpSZWNvcmROdW1iZXI9ODk4MzgKS2V5d29yZHM9Tm9uZQpUYXNrQ2F0ZWdvcnk9UHJvY2VzcyB0ZXJtaW5hdGVkIChydWxlOiBQcm9jZXNzVGVybWluYXRlKQpPcENvZGU9SW5mbwpNZXNzYWdlPVByb2Nlc3MgdGVybWluYXRlZDoNClJ1bGVOYW1lOiAtDQpVdGNUaW1lOiAyMDI0LTEyLTA4IDE5OjAwOjI3Ljk3Ng0KUHJvY2Vzc0d1aWQ6IHswMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDB9DQpQcm9jZXNzSWQ6IDI5MjQNCkltYWdlOiA8dW5rbm93biBwcm9jZXNzPg0KVXNlcjogTlQgQVVUSE9SSVRZXE5FVFdPUksgU0VSVklDRQ==",
+            "id": "artifact--5cd717d8-06a3-5d08-82fb-7638b74bfe18",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "user-account",
+            "user_id": "UMFD-2",
+            "id": "user-account--461a1567-d82c-5116-b05c-4d984b31dc73",
+            "spec_version": "2.1",
+            "x_user_name": "UMFD-2"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--9673ac2f-3bf2-4943-92cf-fc9efafc6eb2",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "user_ref": "user-account--461a1567-d82c-5116-b05c-4d984b31dc73",
+            "id": "x-oca-event--a7270b8a-74c9-47d6-b41b-8d0042832f59",
+            "spec_version": "2.1",
+            "host_ref": "x-oca-asset--9673ac2f-3bf2-4943-92cf-fc9efafc6eb2",
+            "module": "WinEventLog:Security",
+            "severity": 20,
+            "action": "An account was logged off",
+            "code": "4634",
+            "provider": "Microsoft Windows",
+            "outcome": "logoff",
+            "x_status": "success",
+            "x_application": "win:local",
+            "x_dest": "WindowsTarget",
+            "x_event_id": "41708",
+            "original_ref": "artifact--7bbce428-a83f-5115-ab17-78d75de4cafe",
+            "created": "2024-12-08T14:00:27.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Security",
+            "id": "x-splunk-data--198690cf-2a93-4ea9-a73d-52e399be6914",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_event_signature",
+                "windows_logoff",
+                "windows_security_change_account",
+                "windows_ta_data",
+                "wineventlog_security",
+                "wineventlog_windows",
+                "winsec"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--82a89cd7-18a2-4227-8412-2286993545a2",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759507",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:27 PM\nLogName=Security\nEventCode=4634\nEventType=0\nComputerName=WindowsTarget\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=41708\nKeywords=Audit Success\nTaskCategory=Logoff\nOpCode=Info",
+            "_serial": "3",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyNyBQTQpMb2dOYW1lPVNlY3VyaXR5CkV2ZW50Q29kZT00NjM0CkV2ZW50VHlwZT0wCkNvbXB1dGVyTmFtZT1XaW5kb3dzVGFyZ2V0ClNvdXJjZU5hbWU9TWljcm9zb2Z0IFdpbmRvd3Mgc2VjdXJpdHkgYXVkaXRpbmcuClR5cGU9SW5mb3JtYXRpb24KUmVjb3JkTnVtYmVyPTQxNzA4CktleXdvcmRzPUF1ZGl0IFN1Y2Nlc3MKVGFza0NhdGVnb3J5PUxvZ29mZgpPcENvZGU9SW5mbwpNZXNzYWdlPUFuIGFjY291bnQgd2FzIGxvZ2dlZCBvZmYuDQoNClN1YmplY3Q6DQoJU2VjdXJpdHkgSUQ6CQlTLTEtNS05Ni0wLTINCglBY2NvdW50IE5hbWU6CQlVTUZELTINCglBY2NvdW50IERvbWFpbjoJCUZvbnQgRHJpdmVyIEhvc3QNCglMb2dvbiBJRDoJCTB4NzhEREENCg0KTG9nb24gVHlwZToJCQkyDQoNClRoaXMgZXZlbnQgaXMgZ2VuZXJhdGVkIHdoZW4gYSBsb2dvbiBzZXNzaW9uIGlzIGRlc3Ryb3llZC4gSXQgbWF5IGJlIHBvc2l0aXZlbHkgY29ycmVsYXRlZCB3aXRoIGEgbG9nb24gZXZlbnQgdXNpbmcgdGhlIExvZ29uIElEIHZhbHVlLiBMb2dvbiBJRHMgYXJlIG9ubHkgdW5pcXVlIGJldHdlZW4gcmVib290cyBvbiB0aGUgc2FtZSBjb21wdXRlci4=",
+            "id": "artifact--7bbce428-a83f-5115-ab17-78d75de4cafe",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "user-account",
+            "user_id": "WDAGUtilityAccount",
+            "id": "user-account--2b7ea540-7c9b-5ea7-8edc-fccc989ce972",
+            "spec_version": "2.1",
+            "x_user_name": "WDAGUtilityAccount"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--05b1594f-a03a-44fb-8981-682f24a14a9b",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "user_ref": "user-account--2b7ea540-7c9b-5ea7-8edc-fccc989ce972",
+            "id": "x-oca-event--3db03143-a617-48b1-9e0f-430ebaf575ba",
+            "spec_version": "2.1",
+            "host_ref": "x-oca-asset--05b1594f-a03a-44fb-8981-682f24a14a9b",
+            "module": "WinEventLog:Security",
+            "severity": 20,
+            "process_ref": "process--4d6c2eb3-a9a4-4c7e-a87c-77a13273df86",
+            "action": "A user's local group membership was enumerated.",
+            "code": "4798",
+            "provider": "Microsoft Windows",
+            "outcome": "read",
+            "x_status": "success",
+            "x_application": "win:unknown",
+            "x_dest": "WindowsTarget",
+            "x_src": "WORKGROUP",
+            "x_event_id": "41707",
+            "original_ref": "artifact--291d2be2-f82b-5a93-94fd-02052c700f3f",
+            "created": "2024-12-08T14:00:27.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Security",
+            "id": "x-splunk-data--8ab1ca3a-c70e-4877-969e-7c4a3a155f07",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_account_management",
+                "windows_event_signature",
+                "windows_security_change_account",
+                "windows_ta_data",
+                "wineventlog_security",
+                "wineventlog_windows",
+                "winsec"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "process",
+            "command_line": "C:\\Windows\\System32\\svchost.exe",
+            "id": "process--4d6c2eb3-a9a4-4c7e-a87c-77a13273df86",
+            "spec_version": "2.1",
+            "name": "svchost.exe",
+            "binary_ref": "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2"
+        },
+        {
+            "type": "file",
+            "name": "svchost.exe",
+            "id": "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--ddd533e9-4efb-4c55-8847-97eab0692545",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759485",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:27 PM\nLogName=Security\nEventCode=4798\nEventType=0\nComputerName=WindowsTarget\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=41707\nKeywords=Audit Success\nTaskCategory=User Account Management\nOpCode=Info",
+            "_serial": "4",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyNyBQTQpMb2dOYW1lPVNlY3VyaXR5CkV2ZW50Q29kZT00Nzk4CkV2ZW50VHlwZT0wCkNvbXB1dGVyTmFtZT1XaW5kb3dzVGFyZ2V0ClNvdXJjZU5hbWU9TWljcm9zb2Z0IFdpbmRvd3Mgc2VjdXJpdHkgYXVkaXRpbmcuClR5cGU9SW5mb3JtYXRpb24KUmVjb3JkTnVtYmVyPTQxNzA3CktleXdvcmRzPUF1ZGl0IFN1Y2Nlc3MKVGFza0NhdGVnb3J5PVVzZXIgQWNjb3VudCBNYW5hZ2VtZW50Ck9wQ29kZT1JbmZvCk1lc3NhZ2U9QSB1c2VyJ3MgbG9jYWwgZ3JvdXAgbWVtYmVyc2hpcCB3YXMgZW51bWVyYXRlZC4NCg0KU3ViamVjdDoNCglTZWN1cml0eSBJRDoJCVMtMS01LTE4DQoJQWNjb3VudCBOYW1lOgkJV2luZG93c1RhcmdldCQNCglBY2NvdW50IERvbWFpbjoJCVdPUktHUk9VUA0KCUxvZ29uIElEOgkJMHgzRTcNCg0KVXNlcjoNCglTZWN1cml0eSBJRDoJCVMtMS01LTIxLTgwMTUwMzYxMC04MDA1ODkwMjAtMzMzNTM4NTU2MC01MDQNCglBY2NvdW50IE5hbWU6CQlXREFHVXRpbGl0eUFjY291bnQNCglBY2NvdW50IERvbWFpbjoJCVdpbmRvd3NUYXJnZXQNCg0KUHJvY2VzcyBJbmZvcm1hdGlvbjoNCglQcm9jZXNzIElEOgkJMHg2ZTgNCglQcm9jZXNzIE5hbWU6CQlDOlxXaW5kb3dzXFN5c3RlbTMyXHN2Y2hvc3QuZXhl",
+            "id": "artifact--291d2be2-f82b-5a93-94fd-02052c700f3f",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "user-account",
+            "user_id": "inf808",
+            "id": "user-account--72a1fe9f-9532-52d2-828c-39887ef70ccc",
+            "spec_version": "2.1",
+            "x_user_name": "inf808"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--804db10e-c955-4fb8-937a-1da1416438cb",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "user_ref": "user-account--72a1fe9f-9532-52d2-828c-39887ef70ccc",
+            "id": "x-oca-event--3d17d622-fc92-46ac-92f8-82bc98de8729",
+            "spec_version": "2.1",
+            "host_ref": "x-oca-asset--804db10e-c955-4fb8-937a-1da1416438cb",
+            "module": "WinEventLog:Security",
+            "severity": 20,
+            "process_ref": "process--206aaf2d-afd9-4ee6-b2ea-d4c270e6ef5e",
+            "action": "A user's local group membership was enumerated.",
+            "code": "4798",
+            "provider": "Microsoft Windows",
+            "outcome": "read",
+            "x_status": "success",
+            "x_application": "win:unknown",
+            "x_dest": "WindowsTarget",
+            "x_src": "WORKGROUP",
+            "x_event_id": "41706",
+            "original_ref": "artifact--6fb53e5a-e259-5fa6-96fd-0a5e99495910",
+            "created": "2024-12-08T14:00:27.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Security",
+            "id": "x-splunk-data--07366a04-ea5a-4b9f-a8df-fe8bca443a05",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_account_management",
+                "windows_event_signature",
+                "windows_security_change_account",
+                "windows_ta_data",
+                "wineventlog_security",
+                "wineventlog_windows",
+                "winsec"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "process",
+            "command_line": "C:\\Windows\\System32\\svchost.exe",
+            "id": "process--206aaf2d-afd9-4ee6-b2ea-d4c270e6ef5e",
+            "spec_version": "2.1",
+            "name": "svchost.exe",
+            "binary_ref": "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--3f41d306-1c38-4792-a992-c91ac837b9c4",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759464",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:27 PM\nLogName=Security\nEventCode=4798\nEventType=0\nComputerName=WindowsTarget\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=41706\nKeywords=Audit Success\nTaskCategory=User Account Management\nOpCode=Info",
+            "_serial": "5",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyNyBQTQpMb2dOYW1lPVNlY3VyaXR5CkV2ZW50Q29kZT00Nzk4CkV2ZW50VHlwZT0wCkNvbXB1dGVyTmFtZT1XaW5kb3dzVGFyZ2V0ClNvdXJjZU5hbWU9TWljcm9zb2Z0IFdpbmRvd3Mgc2VjdXJpdHkgYXVkaXRpbmcuClR5cGU9SW5mb3JtYXRpb24KUmVjb3JkTnVtYmVyPTQxNzA2CktleXdvcmRzPUF1ZGl0IFN1Y2Nlc3MKVGFza0NhdGVnb3J5PVVzZXIgQWNjb3VudCBNYW5hZ2VtZW50Ck9wQ29kZT1JbmZvCk1lc3NhZ2U9QSB1c2VyJ3MgbG9jYWwgZ3JvdXAgbWVtYmVyc2hpcCB3YXMgZW51bWVyYXRlZC4NCg0KU3ViamVjdDoNCglTZWN1cml0eSBJRDoJCVMtMS01LTE4DQoJQWNjb3VudCBOYW1lOgkJV2luZG93c1RhcmdldCQNCglBY2NvdW50IERvbWFpbjoJCVdPUktHUk9VUA0KCUxvZ29uIElEOgkJMHgzRTcNCg0KVXNlcjoNCglTZWN1cml0eSBJRDoJCVMtMS01LTIxLTgwMTUwMzYxMC04MDA1ODkwMjAtMzMzNTM4NTU2MC01MDANCglBY2NvdW50IE5hbWU6CQlpbmY4MDgNCglBY2NvdW50IERvbWFpbjoJCVdpbmRvd3NUYXJnZXQNCg0KUHJvY2VzcyBJbmZvcm1hdGlvbjoNCglQcm9jZXNzIElEOgkJMHg2ZTgNCglQcm9jZXNzIE5hbWU6CQlDOlxXaW5kb3dzXFN5c3RlbTMyXHN2Y2hvc3QuZXhl",
+            "id": "artifact--6fb53e5a-e259-5fa6-96fd-0a5e99495910",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "user-account",
+            "user_id": "Guest",
+            "id": "user-account--c998791c-89bc-5885-b37e-19cc73c764d2",
+            "spec_version": "2.1",
+            "x_user_name": "Guest"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--d7cfb8c8-c7e6-48ab-bfd9-d822b9c9d60e",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "user_ref": "user-account--c998791c-89bc-5885-b37e-19cc73c764d2",
+            "id": "x-oca-event--5132408e-1eda-48ed-84d7-f99a04602e89",
+            "spec_version": "2.1",
+            "host_ref": "x-oca-asset--d7cfb8c8-c7e6-48ab-bfd9-d822b9c9d60e",
+            "module": "WinEventLog:Security",
+            "severity": 20,
+            "process_ref": "process--87434eb3-57c7-460e-aa9c-cd845a438aae",
+            "action": "A user's local group membership was enumerated.",
+            "code": "4798",
+            "provider": "Microsoft Windows",
+            "outcome": "read",
+            "x_status": "success",
+            "x_application": "win:unknown",
+            "x_dest": "WindowsTarget",
+            "x_src": "WORKGROUP",
+            "x_event_id": "41705",
+            "original_ref": "artifact--f5af70ac-4d30-5e01-ac56-3705d245f4ec",
+            "created": "2024-12-08T14:00:27.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Security",
+            "id": "x-splunk-data--d5801974-4b0c-4166-a0e1-489688e96ab3",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_account_management",
+                "windows_event_signature",
+                "windows_security_change_account",
+                "windows_ta_data",
+                "wineventlog_security",
+                "wineventlog_windows",
+                "winsec"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "process",
+            "command_line": "C:\\Windows\\System32\\svchost.exe",
+            "id": "process--87434eb3-57c7-460e-aa9c-cd845a438aae",
+            "spec_version": "2.1",
+            "name": "svchost.exe",
+            "binary_ref": "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--8c25559c-f9bb-4238-8002-ba506808e05c",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759443",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:27 PM\nLogName=Security\nEventCode=4798\nEventType=0\nComputerName=WindowsTarget\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=41705\nKeywords=Audit Success\nTaskCategory=User Account Management\nOpCode=Info",
+            "_serial": "6",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyNyBQTQpMb2dOYW1lPVNlY3VyaXR5CkV2ZW50Q29kZT00Nzk4CkV2ZW50VHlwZT0wCkNvbXB1dGVyTmFtZT1XaW5kb3dzVGFyZ2V0ClNvdXJjZU5hbWU9TWljcm9zb2Z0IFdpbmRvd3Mgc2VjdXJpdHkgYXVkaXRpbmcuClR5cGU9SW5mb3JtYXRpb24KUmVjb3JkTnVtYmVyPTQxNzA1CktleXdvcmRzPUF1ZGl0IFN1Y2Nlc3MKVGFza0NhdGVnb3J5PVVzZXIgQWNjb3VudCBNYW5hZ2VtZW50Ck9wQ29kZT1JbmZvCk1lc3NhZ2U9QSB1c2VyJ3MgbG9jYWwgZ3JvdXAgbWVtYmVyc2hpcCB3YXMgZW51bWVyYXRlZC4NCg0KU3ViamVjdDoNCglTZWN1cml0eSBJRDoJCVMtMS01LTE4DQoJQWNjb3VudCBOYW1lOgkJV2luZG93c1RhcmdldCQNCglBY2NvdW50IERvbWFpbjoJCVdPUktHUk9VUA0KCUxvZ29uIElEOgkJMHgzRTcNCg0KVXNlcjoNCglTZWN1cml0eSBJRDoJCVMtMS01LTIxLTgwMTUwMzYxMC04MDA1ODkwMjAtMzMzNTM4NTU2MC01MDENCglBY2NvdW50IE5hbWU6CQlHdWVzdA0KCUFjY291bnQgRG9tYWluOgkJV2luZG93c1RhcmdldA0KDQpQcm9jZXNzIEluZm9ybWF0aW9uOg0KCVByb2Nlc3MgSUQ6CQkweDZlOA0KCVByb2Nlc3MgTmFtZToJCUM6XFdpbmRvd3NcU3lzdGVtMzJcc3ZjaG9zdC5leGU=",
+            "id": "artifact--f5af70ac-4d30-5e01-ac56-3705d245f4ec",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "user-account",
+            "user_id": "DefaultAccount",
+            "id": "user-account--5a96b65c-7256-56fe-b2da-bd82769a22f0",
+            "spec_version": "2.1",
+            "x_user_name": "DefaultAccount"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--05ca5a92-08b9-4b66-a001-c9e1b367b1df",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "user_ref": "user-account--5a96b65c-7256-56fe-b2da-bd82769a22f0",
+            "id": "x-oca-event--f8090b9c-57e3-4f55-b8f7-22a35f21269c",
+            "spec_version": "2.1",
+            "host_ref": "x-oca-asset--05ca5a92-08b9-4b66-a001-c9e1b367b1df",
+            "module": "WinEventLog:Security",
+            "severity": 20,
+            "process_ref": "process--ddcac2ac-19b0-4003-9622-a2e0e9fd297b",
+            "action": "A user's local group membership was enumerated.",
+            "code": "4798",
+            "provider": "Microsoft Windows",
+            "outcome": "read",
+            "x_status": "success",
+            "x_application": "win:unknown",
+            "x_dest": "WindowsTarget",
+            "x_src": "WORKGROUP",
+            "x_event_id": "41704",
+            "original_ref": "artifact--f672f4fe-6bd7-5bd2-96cd-10c1750d4e04",
+            "created": "2024-12-08T14:00:27.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Security",
+            "id": "x-splunk-data--b6874f7e-ba79-4583-83c8-083f414feca0",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_account_management",
+                "windows_event_signature",
+                "windows_security_change_account",
+                "windows_ta_data",
+                "wineventlog_security",
+                "wineventlog_windows",
+                "winsec"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "process",
+            "command_line": "C:\\Windows\\System32\\svchost.exe",
+            "id": "process--ddcac2ac-19b0-4003-9622-a2e0e9fd297b",
+            "spec_version": "2.1",
+            "name": "svchost.exe",
+            "binary_ref": "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--a3afdc64-e3e2-4d64-8d82-d890c965274a",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759422",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:27 PM\nLogName=Security\nEventCode=4798\nEventType=0\nComputerName=WindowsTarget\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=41704\nKeywords=Audit Success\nTaskCategory=User Account Management\nOpCode=Info",
+            "_serial": "7",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyNyBQTQpMb2dOYW1lPVNlY3VyaXR5CkV2ZW50Q29kZT00Nzk4CkV2ZW50VHlwZT0wCkNvbXB1dGVyTmFtZT1XaW5kb3dzVGFyZ2V0ClNvdXJjZU5hbWU9TWljcm9zb2Z0IFdpbmRvd3Mgc2VjdXJpdHkgYXVkaXRpbmcuClR5cGU9SW5mb3JtYXRpb24KUmVjb3JkTnVtYmVyPTQxNzA0CktleXdvcmRzPUF1ZGl0IFN1Y2Nlc3MKVGFza0NhdGVnb3J5PVVzZXIgQWNjb3VudCBNYW5hZ2VtZW50Ck9wQ29kZT1JbmZvCk1lc3NhZ2U9QSB1c2VyJ3MgbG9jYWwgZ3JvdXAgbWVtYmVyc2hpcCB3YXMgZW51bWVyYXRlZC4NCg0KU3ViamVjdDoNCglTZWN1cml0eSBJRDoJCVMtMS01LTE4DQoJQWNjb3VudCBOYW1lOgkJV2luZG93c1RhcmdldCQNCglBY2NvdW50IERvbWFpbjoJCVdPUktHUk9VUA0KCUxvZ29uIElEOgkJMHgzRTcNCg0KVXNlcjoNCglTZWN1cml0eSBJRDoJCVMtMS01LTIxLTgwMTUwMzYxMC04MDA1ODkwMjAtMzMzNTM4NTU2MC01MDMNCglBY2NvdW50IE5hbWU6CQlEZWZhdWx0QWNjb3VudA0KCUFjY291bnQgRG9tYWluOgkJV2luZG93c1RhcmdldA0KDQpQcm9jZXNzIEluZm9ybWF0aW9uOg0KCVByb2Nlc3MgSUQ6CQkweDZlOA0KCVByb2Nlc3MgTmFtZToJCUM6XFdpbmRvd3NcU3lzdGVtMzJcc3ZjaG9zdC5leGU=",
+            "id": "artifact--f672f4fe-6bd7-5bd2-96cd-10c1750d4e04",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        },
+        {
+            "type": "user-account",
+            "user_id": "Alex",
+            "id": "user-account--75f957b2-1c87-55dc-be2d-a8c656b61cff",
+            "spec_version": "2.1",
+            "x_user_name": "Alex"
+        },
+        {
+            "type": "x-oca-asset",
+            "hostname": "WindowsTarget",
+            "id": "x-oca-asset--ba061c81-0d16-4b9f-a369-14429c326733",
+            "spec_version": "2.1"
+        },
+        {
+            "type": "x-oca-event",
+            "user_ref": "user-account--75f957b2-1c87-55dc-be2d-a8c656b61cff",
+            "id": "x-oca-event--09477b7d-6ec4-4f90-ab91-7da86ebc1907",
+            "spec_version": "2.1",
+            "host_ref": "x-oca-asset--ba061c81-0d16-4b9f-a369-14429c326733",
+            "module": "WinEventLog:Security",
+            "severity": 20,
+            "process_ref": "process--3940a29e-d8c0-4487-86e5-55a458d34e25",
+            "action": "A user's local group membership was enumerated.",
+            "code": "4798",
+            "provider": "Microsoft Windows",
+            "outcome": "read",
+            "x_status": "success",
+            "x_application": "win:unknown",
+            "x_dest": "WindowsTarget",
+            "x_src": "WORKGROUP",
+            "x_event_id": "41703",
+            "original_ref": "artifact--e46cd19c-3082-51a1-a8c3-a54bb30bce7b",
+            "created": "2024-12-08T14:00:27.000Z"
+        },
+        {
+            "type": "x-splunk-data",
+            "log_source": "WinEventLog:Security",
+            "id": "x-splunk-data--96df9106-4676-49a3-bdfa-0a035b462f1c",
+            "spec_version": "2.1",
+            "event_type": [
+                "endpoint_services_processes",
+                "windows_account_management",
+                "windows_event_signature",
+                "windows_security_change_account",
+                "windows_ta_data",
+                "wineventlog_security",
+                "wineventlog_windows",
+                "winsec"
+            ],
+            "log_source_type": "WinEventLog"
+        },
+        {
+            "type": "process",
+            "command_line": "C:\\Windows\\System32\\svchost.exe",
+            "id": "process--3940a29e-d8c0-4487-86e5-55a458d34e25",
+            "spec_version": "2.1",
+            "name": "svchost.exe",
+            "binary_ref": "file--f81a5ff1-3c57-5626-ae03-b67d49d4ddc2"
+        },
+        {
+            "type": "x-splunk",
+            "dvc": "WindowsTarget",
+            "id": "x-splunk--8176c0d8-d013-4ad6-a86c-648a549b3048",
+            "spec_version": "2.1",
+            "_bkt": "main~1~34D9095E-24F3-41BA-A5B4-4F80E033109A",
+            "_cd": "1:1759401",
+            "_eventtype_color": "none",
+            "_indextime": "1733684428",
+            "_pre_msg": "12/08/2024 07:00:27 PM\nLogName=Security\nEventCode=4798\nEventType=0\nComputerName=WindowsTarget\nSourceName=Microsoft Windows security auditing.\nType=Information\nRecordNumber=41703\nKeywords=Audit Success\nTaskCategory=User Account Management\nOpCode=Info",
+            "_serial": "8",
+            "_si": [
+                "FedoraThreatHunting",
+                "main"
+            ]
+        },
+        {
+            "type": "artifact",
+            "payload_bin": "MTIvMDgvMjAyNCAwNzowMDoyNyBQTQpMb2dOYW1lPVNlY3VyaXR5CkV2ZW50Q29kZT00Nzk4CkV2ZW50VHlwZT0wCkNvbXB1dGVyTmFtZT1XaW5kb3dzVGFyZ2V0ClNvdXJjZU5hbWU9TWljcm9zb2Z0IFdpbmRvd3Mgc2VjdXJpdHkgYXVkaXRpbmcuClR5cGU9SW5mb3JtYXRpb24KUmVjb3JkTnVtYmVyPTQxNzAzCktleXdvcmRzPUF1ZGl0IFN1Y2Nlc3MKVGFza0NhdGVnb3J5PVVzZXIgQWNjb3VudCBNYW5hZ2VtZW50Ck9wQ29kZT1JbmZvCk1lc3NhZ2U9QSB1c2VyJ3MgbG9jYWwgZ3JvdXAgbWVtYmVyc2hpcCB3YXMgZW51bWVyYXRlZC4NCg0KU3ViamVjdDoNCglTZWN1cml0eSBJRDoJCVMtMS01LTE4DQoJQWNjb3VudCBOYW1lOgkJV2luZG93c1RhcmdldCQNCglBY2NvdW50IERvbWFpbjoJCVdPUktHUk9VUA0KCUxvZ29uIElEOgkJMHgzRTcNCg0KVXNlcjoNCglTZWN1cml0eSBJRDoJCVMtMS01LTIxLTgwMTUwMzYxMC04MDA1ODkwMjAtMzMzNTM4NTU2MC0xMDE3DQoJQWNjb3VudCBOYW1lOgkJQWxleA0KCUFjY291bnQgRG9tYWluOgkJV2luZG93c1RhcmdldA0KDQpQcm9jZXNzIEluZm9ybWF0aW9uOg0KCVByb2Nlc3MgSUQ6CQkweDZlOA0KCVByb2Nlc3MgTmFtZToJCUM6XFdpbmRvd3NcU3lzdGVtMzJcc3ZjaG9zdC5leGU=",
+            "id": "artifact--e46cd19c-3082-51a1-a8c3-a54bb30bce7b",
+            "spec_version": "2.1",
+            "mime_type": "text/plain"
+        }
+    ]
+}

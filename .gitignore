@@ -1,0 +1,78 @@
+# Ignore virtual environments
+*.env/
+venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment variables files (for sensitive info like passwords, tokens, etc.)
+.env
+*.env
+*.env.local
+.env.development
+.env.production
+
+# Ignore Azure configuration files
+*.azure
+
+# Ignore Docker and other container files
+docker-compose.yml
+Dockerfile
+.docker/
+docker/
+
+# Ignore IDE/editor configuration files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.vscode/
+
+# Ignore system-specific files (Linux)
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+*.pid
+*.out
+
+# Ignore compiled C/C++ files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Ignore other temporary files
+*.sql
+*.sqlite
+
+# Ignore the cache and config files for some tools
+.cache/
+local/
+logs/
+*.pid
+
+# Ignore npm/yarn lock files if you are using node-based tools
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore OS-specific files
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Ignore backup files
+*.bak
+*.swp
+*.swo
+
+#dont include kestrel-analytics as a submodule
+kestrel-analytics/
